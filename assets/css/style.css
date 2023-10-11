@@ -212,7 +212,7 @@
     line-height: 160%;
 }
 
-@media (min-width: 1690px) {
+@media (min-width: 1920px) {
     .container {
         width: 1440px;
         margin: auto;
