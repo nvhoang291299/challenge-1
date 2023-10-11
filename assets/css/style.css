@@ -49,6 +49,7 @@
 }
 
 #header .header-right ul .btn-sign button {
+    cursor: pointer;
     border-radius: 8px;
     border: 2px solid var(--amber-900);
     background-color: white;
@@ -71,7 +72,6 @@
     width: 100%;
     height: 100%;
     z-index: -1;
-    overflow:auto;
 }
 
 #content .container .section {
@@ -109,14 +109,14 @@
 }
 
 #content .container .section .col-left .buttons button {
+    cursor: pointer;
     color: var(--amber-900);
     border-radius: 8px;
     border: solid 2px var(--amber-900);
     background-color: white;
-    font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.5px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 #content .container .section .col-left .buttons .btn-first {
