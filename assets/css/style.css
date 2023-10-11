@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+:root {
+    --amber-900: #78350F;
+    --blue-gray: #0F172A;
+}
+
+.d-flex {
+    display: flex;
+}
+
+#header {
+    width: 100%;
+    padding: 24px 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header .header-left .logo h5 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35.2px;
+    color: var(--amber-900);
+}
+
+#header .header-right ul {
+    align-items: center;
+    gap: 16px;
+    list-style: none;
+}
+
+#header .header-right ul .menu-item {
+    padding: 12px 8px;
+    border: none;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: var(--amber-900);
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+#header .header-right ul .btn-sign button {
+    border-radius: 8px;
+    border: 2px solid var(--amber-900);
+    background-color: white;
+    color: var(--amber-900);
+    padding: 12px 28px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+#content{
+    position: relative;
+}
+.background{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url(../image/background.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: calc(100% - 12px);
+    height: 806px;
+    z-index: -1;
+
+}
+
+#content .section {
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+#content .section .col-left {
+    width: 714px;
+}
+
+#content .section .col-left .title h1 {
+    text-transform: capitalize;
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 110%;
+    color: var(--blue-gray);
+}
+
+#content .section .col-left .content {
+    margin: 32px 0;
+}
+
+#content .section .col-left .content p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+    color: var(--blue-gray);
+}
+
+#content .section .col-left .buttons {
+    align-items: center;
+    gap: 16px;
+}
+
+#content .section .col-left .buttons button {
+    color: var(--amber-900);
+    border-radius: 8px;
+    border: solid 2px var(--amber-900);
+    background-color: white;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+}
+
+#content .section .col-left .buttons .btn-first {
+    font-size: 20px;
+    padding: 16px 32px;
+}
+
+#content .section .col-left .buttons .btn-second {
+    font-size: 16px; 
+    padding: 12px 8px;
+    text-transform: capitalize;
+    border: none;
+}
+
+#content .section .col-left .buttons .btn-second img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+#content .section .col-right {
+    position: relative;
+    width: 486px;
+    height: 423px;
+}
+
+#content .section .col-right .col-right-background {
+    position: absolute;
+    top: 51px;
+    left: 51px;
+    width: 367px;
+    height: 372px;
+    border-radius: 50px;
+    background: #FBBF24;
+}
+
+#content .section .col-right .col-right-img {
+    position: absolute;
+    width: 486px;
+    height: 388px;
+}
+
+#content .row {
+    justify-content: space-between;
+    padding: 80px;
+}
+
+#content .row .box-item {
+    width: 373.333px;
+}
+
+#content .row .box-item {
+    position: relative;
+}
+
+#content .row .box-item .isosceles-triangle {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background-image: url(../image/isosceles-triangle.svg);
+    background-repeat: no-repeat;
+    left: 28px;
+}
+
+#content .row .box-item .right-triangle {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    background-image: url(../image/right-triangle.svg);
+    background-repeat: no-repeat;
+    left: 25.666px;
+}
+
+#content .row .box-item .square {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    background-image: url(../image/square.svg);
+    background-repeat: no-repeat;
+    left: 41.334px;
+}
+
+#content .row .box-item h5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    margin: 16px 0;
+}
+
+#content .row .box-item p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 160%;
+}
